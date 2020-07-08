@@ -1,0 +1,17 @@
+﻿@model FileUploadViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form enctype="multipart/form-data" method="post">
+    <dl>
+        <dt>
+            <label asp-for="Image"></label>
+        </dt>
+        <dd>
+            <input asp-for="Image" type="file">
+        </dd>
+    </dl>
+    <button class="btn btn-primary" type="submit">Upload</button>
+</form>

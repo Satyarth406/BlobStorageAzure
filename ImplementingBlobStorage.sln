@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingBlobStorage", "ImplementingBlobStorage\ImplementingBlobStorage.csproj", "{B30462B7-F237-44D1-87FB-E9EDC405399D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorageStandard", "BlobStorageStandard\BlobStorageStandard.csproj", "{5C82A96B-63BD-4BC5-83E7-5B00C8B45B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B30462B7-F237-44D1-87FB-E9EDC405399D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30462B7-F237-44D1-87FB-E9EDC405399D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30462B7-F237-44D1-87FB-E9EDC405399D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30462B7-F237-44D1-87FB-E9EDC405399D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C82A96B-63BD-4BC5-83E7-5B00C8B45B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C82A96B-63BD-4BC5-83E7-5B00C8B45B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C82A96B-63BD-4BC5-83E7-5B00C8B45B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C82A96B-63BD-4BC5-83E7-5B00C8B45B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8660C250-C4C8-48D2-90F2-FC93DCBFF57D}
+	EndGlobalSection
+EndGlobal
